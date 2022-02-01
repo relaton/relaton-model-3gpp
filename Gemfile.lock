@@ -1,0 +1,45 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    expressir (1.0.0-x86_64-darwin)
+      thor (~> 1.0)
+    hashie (4.1.0)
+    htmlentities (4.3.4)
+    lutaml (0.7.4)
+      lutaml-express
+      lutaml-uml
+      lutaml-xmi
+      nokogiri (~> 1.10)
+      thor (~> 1.0)
+    lutaml-express (0.2.0)
+      expressir (~> 1.0.0)
+    lutaml-uml (0.4.1)
+      hashie (~> 4.1.0)
+      nokogiri (~> 1.10)
+      parslet (~> 2.0.0)
+      ruby-graphviz (~> 1.2)
+      thor (~> 1.0)
+    lutaml-xmi (0.2.2)
+      hashie (~> 4.1.0)
+      htmlentities
+      lutaml-uml
+      nokogiri (~> 1.10)
+      thor (~> 1.0)
+    nokogiri (1.12.5-x86_64-darwin)
+      racc (~> 1.4)
+    parslet (2.0.0)
+    racc (1.6.0)
+    rexml (3.2.5)
+    ruby-graphviz (1.2.5)
+      rexml
+    thor (1.2.1)
+
+PLATFORMS
+  x86_64-darwin-20
+
+DEPENDENCIES
+  lutaml
+  lutaml-uml
+
+BUNDLED WITH
+   2.2.21
